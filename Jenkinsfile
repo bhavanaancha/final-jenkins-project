@@ -24,7 +24,7 @@ maven "Maven"
 
        echo "Building ${module}..."
 
-       sh 'mvn clean install'
+       bat "mvn clean install"
        }
        }
        }
