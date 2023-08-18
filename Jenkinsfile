@@ -16,7 +16,7 @@ maven "Maven"
 
        script {
 
-       def modules = [ 'ReportingService','NotificationApp','GymAuthenticationService-1','EurekaServer','GymApplication','GatewayServer','GymCommons']
+       def modules = ['ReportingService','NotificationApp','GymAuthenticationService-1','EurekaServer','GymApplication','GatewayServer','GymCommons']
 
        for (def module in modules) {
 
